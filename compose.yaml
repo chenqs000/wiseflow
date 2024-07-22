@@ -18,4 +18,4 @@ services:
       - 3061:8077
     volumes:
       - /opt/docker/volumes/wiseflow/pb_data:/app/pb/pb_data
-      - ./${PROJECT_DIR}:/app/${PROJECT_DIR}
+      - /opt/docker/volumes/wiseflow/app_pj:/app/${PROJECT_DIR}
