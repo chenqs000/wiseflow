@@ -4,6 +4,8 @@ services:
       dockerfile: Dockerfile
     image: wiseflow:latest
     # set following as you need
+    container_name: wiseflow
+    restart: always
     environment:
       - TZ=Asia/Shanghai
       - LANG=zh_CN.UTF-8
